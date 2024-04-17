@@ -1,0 +1,61 @@
+.d-flex{
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.custom-link {
+    color: white !important;
+  }
+
+
+.me-2{
+    height: 40px;
+}
+
+
+.navbar-collapse{
+    z-index: 999;
+    background-color: rgb(238, 68, 68);
+   
+   
+}
+
+
+.bg-body-tertiary{
+    margin-bottom: 30px;
+    margin-top: 0;
+    top: 0;
+    align-items: center;
+}
+
+.btn-outline-success{
+    color: white !important;
+}
+
+.navbar-brand{
+    display: none;
+}
+
+.navbar-toggler{
+
+   margin-left: auto; /* Empuja el botón hacia la derecha */
+    margin-right: 10px;
+}
+
+.me-auto{
+    margin-left: 20px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255) !important
+   
+}
+
+.container-fluid{
+    width: 100%;
+}

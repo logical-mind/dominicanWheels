@@ -1,0 +1,56 @@
+.padreCard{
+    margin-left: 20px;
+}
+
+.cardContenedor{
+     width: 230px;
+     height: 335px;
+     float: left; 
+     cursor: pointer;
+     margin-bottom: 20px;
+}
+
+.cardContenedor:hover{
+    box-shadow: 
+    0 0 2px rgba(136, 135, 135, 0.2), /* Sombra arriba */
+    -2px 0 8px rgba(136, 135, 135, 0.2), /* Sombra a la izquierda */
+    0 2px 8px rgba(136, 135, 135, 0.2), /* Sombra abajo */
+    2px 0 8px rgba(136, 135, 135, 0.2); /* Sombra a la derecha */
+    
+}
+
+.articulo{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+.contenedorDetalles{
+    margin-top: 30px;
+    text-align: center;
+    font-family: "NS-Proxima-Nova",helvetica,arial,sans-serif;
+}
+
+.textoDetalles{
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #999;
+}
+
+.textoTitulo{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0062bd;
+    font-size: 17px;
+}
+
+.textoPrecio{
+    color: rgb(32, 30, 30);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+

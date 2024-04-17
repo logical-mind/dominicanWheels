@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px){
+
+table td {
+    border-bottom: 1px solid #ddd;
+    display: inline !important;;
+    margin-left: 50px;
+    font-size: .8em;
+    text-align: right;
+    margin-right: 30px;
+}
+
+table thead {
+    position: relative !important;
+}
+}

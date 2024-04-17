@@ -1,0 +1,79 @@
+.columnas{
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-weight: 600;
+}
+
+img{
+    cursor: pointer;
+}
+
+.contenedorCard{
+    float: left;
+    text-align: center;
+}
+
+.card-tyres{
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 5px;
+}
+
+.tyre-name{
+    color: #80b6ff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    background-color: #333333;
+    border: 2px solid #333333;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+.pulgada{
+    font-size: 25px;
+}
+
+.factory{
+    font-size: 12px;
+}
+
+
+
+.vehiculo{
+    text-align: center;
+    border-top: 1px solid #d2cece;
+    border-left: 1px solid #d2cece; 
+    height: 40px;
+    align-content: center;
+}
+
+.otros{
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px solid #d2cece;
+    border-left: 1px solid #d2cece;
+    border-bottom-left-radius: 5px; 
+    height: 40px;
+}
+
+
+
+
+.menu-filtros{
+    margin-top: 12px;
+}
+
+
+.px-0{
+    cursor: pointer;
+}
+
+.px-0 :hover{
+    background-color: #ebe9e9;
+}

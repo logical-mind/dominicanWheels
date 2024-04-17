@@ -1,0 +1,47 @@
+.tab-title {
+    color: black;
+  }
+
+  .nav-link:hover {
+    background-color: #f0f0f0; /* Color de fondo al hacer hover */
+    color: #000000; /* Color del texto al hacer hover */
+  }
+
+
+  .vehiculo2{
+    text-align: center;
+    border-bottom: 1px solid #d2cece;
+    border-right: 1px solid #d2cece;
+    border-bottom-right-radius: 5px; 
+    height: 40px;
+    align-content: center;
+}
+
+.otros2{
+    text-align: center;
+    align-content: center;
+    border-top: 1px solid #d2cece;
+    border-right: 1px solid #d2cece;
+    height: 40px;
+}
+
+
+.selectores-filtros{
+    background-color: white;
+    right: 10px;
+}
+
+
+
+.menu-filtros2{
+    margin-top: 12px;
+}
+
+
+.px-02{
+    cursor: pointer;
+}
+
+.px-02 :hover{
+    background-color: #ebe9e9;
+}

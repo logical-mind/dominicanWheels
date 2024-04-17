@@ -1,0 +1,23 @@
+.titulo_d {
+    font-size: 28px;
+    font-weight: 500;
+    color: #454545;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #999;
+}
+
+.columna-1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 25px;
+}
+
+.logo1-p, .logo2-p{
+    transition: transform 0.8s ease;
+}
+
+.logo1-p:hover, .logo2-p:hover{
+    transform: rotate(360deg);
+}

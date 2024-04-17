@@ -1,0 +1,60 @@
+.sidebar-contenedor{
+   margin-left: 20px;
+   margin-right: 20px;
+   background-color: rgb(246, 246, 246);
+   border: 6px solid rgb(246, 246, 246);
+}
+
+.text-center{
+   margin-top: 30PX;
+   color: #000; 
+   font-size: 22px;
+   line-height: 1.4;
+   font-family: "NS-Proxima-Nova",helvetica,arial,sans-serif
+}
+
+
+
+.text-center2{
+    font-family: "NS-Proxima-Nova",helvetica,arial,sans-serif;
+    margin-top: 15px;
+    font-size: 12PX;
+    letter-spacing: 3px;
+    line-height: 1.4;
+
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 20px;
+}
+
+
+.select-marca {
+    font-family: "NS-Proxima-Nova",helvetica,arial,sans-serif;
+    display: 'inline-block';
+    text-align: left;
+    margin-top: 30px;
+}
+
+.boton-find{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 30px;
+    background-color: #cf2e2e;
+    border-radius: 5px;
+    width: 180px;
+    height: 45px;
+    margin-left: calc(50% - 90px);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.texto-boton{
+    margin-left: 5px;
+    font-family: "NS-Proxima-Nova",helvetica,arial,sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 17px;
+   
+}
