@@ -8,7 +8,7 @@ from django.shortcuts import get_object_or_404
 
 
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def gomaOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
@@ -60,7 +60,7 @@ def gomaOpciones(request, pk=None, filtro=None, valor=None):
                     return JsonResponse({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
                 
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def disenoOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
@@ -68,9 +68,9 @@ def disenoOpciones(request, pk=None, filtro=None, valor=None):
                     try:
                         objeto = Diseno.objects.get(pk)
                         serializer = DisenoSerializer(objeto)
-                        return JsonResponse(serializer.data)
+                        return JsonResponse(serializer.data)   
                     except Diseno.DoesNotExist:
-                        return JsonResponse({'message': 'El tutorial no existe'}, status=status.HTTP_404_NOT_FOUND)
+                        return JsonResponse({'message': 'El diseno no existe'}, status=status.HTTP_404_NOT_FOUND)
                 else:
                     if filtro is not None and valor is not None:
                         kwargs = {filtro: valor}
@@ -110,7 +110,7 @@ def disenoOpciones(request, pk=None, filtro=None, valor=None):
                     return JsonResponse({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
      
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def diametroOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
@@ -160,7 +160,7 @@ def diametroOpciones(request, pk=None, filtro=None, valor=None):
                     return JsonResponse({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
   
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def marcaOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
@@ -210,7 +210,7 @@ def marcaOpciones(request, pk=None, filtro=None, valor=None):
                     return JsonResponse({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
   
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def categoriaOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
@@ -260,7 +260,7 @@ def categoriaOpciones(request, pk=None, filtro=None, valor=None):
                     return JsonResponse({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def velocidadOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
@@ -311,7 +311,7 @@ def velocidadOpciones(request, pk=None, filtro=None, valor=None):
                     return JsonResponse({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-@api_view(['PUT','GET', 'POST', 'DELETE', 'OPTIONS'])
+@api_view(['PUT','GET', 'POST', 'DELETE'])
 def sizeOpciones(request, pk=None, filtro=None, valor=None):
 
     if request.method == 'GET':
